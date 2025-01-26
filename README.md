@@ -99,7 +99,7 @@ t=28: Computation, duration 50 started (arrived @ 10, waited 18)
 t=78: Timer interrupt, duration 10 started (arrived @ 25, waited 53)
 ``` 
 #### Per-Process Statistics
-```plaintext
+```yaml
 Computation:
   Events generated:  1
   Total wait time:   18
@@ -111,7 +111,7 @@ Timer interrupt:
   Average wait time: 37.67
   ```
 #### Summary Statistics
-```plaintext
+```yaml
 Total num events:  8
 Total wait time:   199.0
 Average wait time: 24.875
